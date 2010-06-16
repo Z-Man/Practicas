@@ -17,6 +17,11 @@ int main ()
 	scanf("%c%d",&fila, &columna);
 	if((fila>='a')&&(fila<='z'))
 		fila=fila-32;
+	if((fila>='A')&&(fila<=uf))
+		printf("El rango valido de filas es A-%c",uf);
+	if((columna>=0)&&(columna<=uc))
+		printf("El rango valido de columnas es 0-%d",uc);
+
 
 	return 0;
 }
