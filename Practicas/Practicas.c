@@ -21,6 +21,8 @@ int main ()
 		printf("El rango valido de filas es A-%c",uf);
 	if((columna>=0)&&(columna<=uc))
 		printf("El rango valido de columnas es 0-%d",uc);
+	if((fila=='Z')&&(columna==0))
+		printf("El juego ha sido interrumpido por el usuario");
 
 
 	return 0;
